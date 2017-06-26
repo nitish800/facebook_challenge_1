@@ -1,2 +1,3 @@
 # facebook_challenge_1
-post to facebook, more update will be added soon
+login and post to facebook, more update will be added soon
+## !IMPORTANT : you need to create your own facebook app
