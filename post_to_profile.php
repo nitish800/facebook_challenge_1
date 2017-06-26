@@ -1,13 +1,14 @@
 <?php
-
+session_start();
 require_once 'vendor/autoload.php';
-if(empty($_POST['app_id']) === False
- && empty($_POST['app_sec'])===False 
- && empty($_POST['app_token'])===False
- && empty($_POST['message'])===False){
-$app_id = $_POST['app_id'];
-$app_sec = $_POST['app_sec'];
-$app_token = $_POST['app_token'];
+
+$app_id = $_SESSION['app_id'];
+$app_sec = $_SESSION['app_sec'];
+$app_token = $_SESSION['token'];
+var_dump($_SESSION['token']);
+var_dump($app_token);
+
+if(empty($_POST['message'])===False){
 $message = $_POST['message'];
 }else{
     echo "inputs are empty";
