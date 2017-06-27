@@ -8,9 +8,14 @@ class ComposerStaticInit5f679ab3c190ada375be3fdc3be0c5a5
 {
     public static $files = array (
         'c65d09b6820da036953a371c8c73a9b1' => __DIR__ . '/..' . '/facebook/graph-sdk/src/Facebook/polyfills.php',
+        '3a37ebac017bc098e9a86b35401e7a68' => __DIR__ . '/..' . '/mongodb/mongodb/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'M' => 
+        array (
+            'MongoDB\\' => 8,
+        ),
         'F' => 
         array (
             'Facebook\\' => 9,
@@ -18,6 +23,10 @@ class ComposerStaticInit5f679ab3c190ada375be3fdc3be0c5a5
     );
 
     public static $prefixDirsPsr4 = array (
+        'MongoDB\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mongodb/mongodb/src',
+        ),
         'Facebook\\' => 
         array (
             0 => __DIR__ . '/..' . '/facebook/graph-sdk/src/Facebook',
