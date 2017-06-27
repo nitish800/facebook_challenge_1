@@ -5,8 +5,6 @@ require_once 'vendor/autoload.php';
 $app_id = $_SESSION['app_id'];
 $app_sec = $_SESSION['app_sec'];
 $app_token = $_SESSION['token'];
-var_dump($_SESSION['token']);
-var_dump($app_token);
 
 if(empty($_POST['message'])===False){
 $message = $_POST['message'];
