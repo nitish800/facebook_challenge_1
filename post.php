@@ -21,9 +21,22 @@
                     </div>
                 </form>
             </div>
+            <form action="comments.php" method="POST">
+            <div class='form-group'>
+                <label for='fname'>Facebook Group ID</label>
+                <input type='text' name='group_id' class='form-control' />
+           </div>
+           <div class='text-left'>
+                    <input type='submit' class='btn btn-primary' value='Submit' />
+            </div>
+            </form>
+
         </div>
+
     </div>
+
 </div>
+
 <style>
 body{padding-top:40px;}
 </style>
